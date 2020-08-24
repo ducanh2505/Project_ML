@@ -1,0 +1,99 @@
+Lần chạy,"Phân
+công","Ngày
+thực hiện",Kernel,Tập đánh giá,Tham Số,,Error(0.0->1.0),,Accuracy(%),,Running time(s),Note,
+,,,,,C,Gamma,IN,OUT,IN,OUT,,,
+1,T,8/17/2020,Linear,Validation,0.001,NA,0.076100,0.069100,92.39%,93.09%,94337.46148,Khá tốt,Execution Time: 950.3590034849985 Accuracy on Training set : 0.9239 Accuracy on Test set : 0.9309
+2,T,8/17/2020,,,0.01,,0.055940,0.056300,94.41%,94.37%,346.8072404,Khá tốt,Execution Time: 451.91711576 Accuracy on Training set : 0.94406 Accuracy on Test set : 0.9437
+3,T,8/17/2020,,,0.1,,0.041880,0.051900,95.81%,94.81%,310.8075358,Khá tốt,Execution Time: 353.92148199300004 Accuracy on Training set : 0.95812 Accuracy on Test set : 0.9481
+4,T,8/17/2020,,,1,,0.027540,0.057700,97.25%,94.23%,375.8399729,Khá tốt,Execution Time: 409.0317629650017 Accuracy on Training set : 0.97246 Accuracy on Test set : 0.9423
+5,ĐA,8/17/2020,,,10,,0.016920,0.071600,98.31%,92.84%,564.6438502,Khá tốt,Execution Time:  1386.998067843  Accuracy on Training set   : 0.987 Accuracy on Test set :0.987
+6,ĐA,8/17/2020,,,100,,0.013000,0.077700,98.70%,92.23%,1386.998068,Khá tốt,
+7,ĐA,8/17/2020,,,1000,,0.011340,0.076900,98.87%,92.31%,11332.4606,Khá tốt,Execution Time: 11332.460602676 Accuracy on Training set : 0.98866 Accuracy on Test set : 0.9231
+8,ĐA,8/17/2020,,,10000,,1.000000,1.000000,,,ĐA running,Chạy quá 12 tiếng,
+1,T,8/17/2020,Gaussian/RBF,Validation,0.001,0.001,0.886440,0.893600,11.36%,10.64%,5492.828425,Underfit (C quá nhỏ),Execution Time: 5492.8284247480005 Accuracy on Training set : 0.11356 Accuracy on Test set : 0.1064
+2,T,8/17/2020,,,,0.01,0.474860,0.459600,52.51%,54.04%,6232.812681,Underfit (C quá nhỏ),Execution Time: 6232.812680517 Accuracy on Training set : 0.52514 Accuracy on Test set : 0.5404
+3,T,8/17/2020,,,,0.1,0.886440,0.893600,11.36%,10.64%,5465.87587,Underfit (C quá nhỏ),Execution Time: 5465.875869577 Accuracy on Training set : 0.11356 Accuracy on Test set : 0.1064
+4,T,8/17/2020,,,,1,0.886440,0.893600,11.36%,10.64%,6343.950391,Underfit (C quá nhỏ),Execution Time: 6343.950390852 Accuracy on Training set : 0.11356 Accuracy on Test set : 0.1064
+5,ĐA,8/17/2020,,,,10,0.886440,0.893600,11.36%,10.64%,5603.611116,Underfit (C quá nhỏ),Execution Time: 5603.611115647001 Accuracy on Training set : 0.11356 Accuracy on Test set : 0.1064
+6,ĐA,8/17/2020,,,,100,0.886440,0.893600,11.36%,10.64%,6518.602192,Underfit (C quá nhỏ),Execution Time: 6518.602192443001 Accuracy on Training set : 0.11356 Accuracy on Test set : 0.1064
+7,ĐA,8/17/2020,,,,1000,0.886440,0.893600,11.36%,10.64%,6528.393814,Underfit (C quá nhỏ),Execution Time: 6528.393814337001 Accuracy on Training set : 0.11356 Accuracy on Test set : 0.1064
+8,ĐA,8/17/2020,,,,10000,0.886440,0.893600,11.36%,10.64%,6572.211985,Underfit (C quá nhỏ),Execution Time: 6572.211984562 Accuracy on Training set : 0.11356 Accuracy on Test set : 0.1064
+1,T,8/17/2020,Gaussian/RBF,Validation,0.01,0.001,0.253740,0.227900,74.63%,77.21%,4487.082916,Underfit (C quá nhỏ),Execution Time: 4487.082915542 Accuracy on Training set : 0.74626 Accuracy on Test set : 0.7721
+2,T,8/17/2020,,,,0.01,0.093900,0.082200,90.61%,91.78%,2878.60347,Khá tốt,Execution Time: 2878.6034699739976 Accuracy on Training set : 0.9061 Accuracy on Test set : 0.9178
+3,T,8/17/2020,,,,0.1,0.784300,0.782800,21.57%,21.72%,5196.250649,Underfit (C quá nhỏ),Execution Time: 5196.250648599002 Accuracy on Training set : 0.2157 Accuracy on Test set : 0.2172
+4,T,8/17/2020,,,,1,0.886440,0.893600,11.36%,10.64%,7450.968046,Underfit (C quá nhỏ),Execution Time: 7450.968045719001 Accuracy on Training set : 0.11356 Accuracy on Test set : 0.1064
+5,ĐA,8/17/2020,,,,10,0.886440,0.893600,11.36%,10.64%,8532.62123,Underfit (C quá nhỏ),Execution Time: 8532.621229643 Accuracy on Training set : 0.11356 Accuracy on Test set : 0.1064
+6,ĐA,8/19/2020,,,,100,0.886440,0.893600,11.36%,10.64%,8442.008432,Underfit (C quá nhỏ),Execution Time: 8442.008432348 Accuracy on Training set : 0.11356 Accuracy on Test set : 0.1064
+7,ĐA,8/19/2020,,,,1000,0.886440,0.893600,11.36%,10.64%,8176.54575,Underfit (C quá nhỏ),Execution Time: 8176.545750206999 Accuracy on Training set : 0.11356 Accuracy on Test set : 0.1064
+8,ĐA,8/19/2020,,,,10000,0.886440,0.893600,11.36%,10.64%,8583.690758,Underfit (C quá nhỏ),Execution Time: 8583.690757735001 Accuracy on Training set : 0.11356 Accuracy on Test set : 0.1064
+1,T,8/19/2020,Gaussian/RBF,Validation,0.1,0.001,0.098240,0.086100,90.18%,91.39%,2006.30818,Ổn mà độ chính xác hơi thấp,Execution Time: 2006.308179722 Accuracy on Training set : 0.90176 Accuracy on Test set : 0.9139
+2,T,8/19/2020,,,,0.01,0.047020,0.042200,95.30%,95.78%,894.0869022,Ổn mà độ chính xác hơi thấp,Execution Time: 894.086902194 Accuracy on Training set : 0.95298 Accuracy on Test set : 0.9578
+3,T,8/19/2020,,,,0.1,0.289520,0.312500,71.05%,68.75%,5173.934161,Underfit (C quá nhỏ),Execution Time: 5173.934161056999 Accuracy on Training set : 0.71048 Accuracy on Test set : 0.6875
+4,T,8/19/2020,,,,1,0.886440,0.893600,11.36%,10.64%,8497.106423,Underfit (C quá nhỏ),Execution Time: 8497.106422998 Accuracy on Training set : 0.11356 Accuracy on Test set : 0.1064
+5,ĐA,8/19/2020,,,,10,0.886440,0.893600,11.36%,10.64%,11259.15538,Underfit (C quá nhỏ),Execution Time: 11259.155382075001 Accuracy on Training set : 0.11356 Accuracy on Test set : 0.1064
+6,ĐA,8/19/2020,,,,100,0.886440,0.893600,11.36%,10.64%,10781.1462,Underfit (C quá nhỏ),Execution Time: 10781.146198938 Accuracy on Training set : 0.11356 Accuracy on Test set : 0.1064
+7,ĐA,8/19/2020,,,,1000,0.886440,0.893600,11.36%,10.64%,10337.69799,Underfit (C quá nhỏ),Execution Time: 10337.697992185 Accuracy on Training set : 0.11356 Accuracy on Test set : 0.1064
+8,ĐA,8/19/2020,,,,10000,0.886440,0.893600,11.36%,10.64%,10180.26875,Underfit (C quá nhỏ),Execution Time: 10180.268752395 Accuracy on Training set : 0.11356 Accuracy on Test set : 0.1064
+1,T,8/20/2020,Gaussian/RBF,Validation,1,0.001,0.064220,0.058900,93.58%,94.11%,783.1767313,Tốt (có vẻ cần tăng C),Execution Time: 783.176731326 Accuracy on Training set : 0.93578 Accuracy on Test set : 0.9411
+2,T,8/20/2020,,,,0.01,0.015260,0.022300,98.47%,97.77%,423.9256641,Tốt (có vẻ cần tăng C),Execution Time: 423.9256641380016 Accuracy on Training set : 0.98474 Accuracy on Test set : 0.9777
+3,T,8/20/2020,,,,0.1,0.015260,0.044800,98.47%,95.52%,7290.527187,Tốt (có vẻ cần tăng C),Execution Time:  7290.527186751 Accuracy on Training set   : 0.99996 Accuracy on Test set : 0.9552 
+4,T,8/20/2020,,,,1,0.000000,0.817600,100.00%,18.24%,16083.37342,Overfit (Gamma quá lớn),Execution Time: 16083.373422991 Accuracy on Training set : 1.0 Accuracy on Test set : 0.1824
+5,ĐA,8/20/2020,,,,10,0.000000,0.893600,100.00%,10.64%,13208.17011,Overfit (Gamma quá lớn),Execution Time: 13208.170111427 Accuracy on Training set : 1.0 Accuracy on Test set : 0.1064
+6,ĐA,8/20/2020,,,,100,0.000000,0.893600,100.00%,10.64%,12562.67337,Overfit (Gamma quá lớn),Execution Time: 12562.673367418001 Accuracy on Training set : 1.0 Accuracy on Test set : 0.1064
+7,ĐA,8/20/2020,,,,1000,0.000000,0.893600,100.00%,10.64%,12769.96213,Overfit (Gamma quá lớn),Execution Time: 12769.962132802 Accuracy on Training set : 1.0 Accuracy on Test set : 0.1064
+8,ĐA,8/20/2020,,,,10000,0.000000,0.893600,100.00%,10.64%,13054.11372,Overfit (Gamma quá lớn),Execution Time: 13054.113722459999 Accuracy on Training set : 1.0 Accuracy on Test set : 0.1064
+1,T,8/19/2020,Gaussian/RBF,Validation,10,0.001,0.037940,0.040800,96.21%,95.92%,403.63822,Tốt (có vẻ cần tăng C hoặc Gamma),Execution Time: 403.6382200210028 Accuracy on Training set : 0.96206 Accuracy on Test set : 0.9592
+2,T,8/19/2020,,,,0.01,0.000580,0.016500,99.94%,98.35%,350.4234741,Có thể Gamma nằm lân cận 0.01,Execution Time: 350.4234740819993 Accuracy on Training set : 0.99942 Accuracy on Test set : 0.9835
+3,T,8/19/2020,,,,0.1,0.000000,0.043400,100.00%,95.66%,7624.225327,Tốt (có vẻ cần tăng C hoặc Gamma),Execution Time: 7624.225327474 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9566
+4,T,8/19/2020,,,,1,0.000000,0.813800,100.00%,18.62%,15876.72616,Overfit (Gamma quá lớn),Execution Time: 15876.726156643 Accuracy on Training set : 1.0 Accuracy on Test set : 0.1862
+5,ĐA,8/19/2020,,,,10,0.000000,0.893600,100.00%,10.64%,23983.37907,Overfit (Gamma quá lớn),Execution Time: 23983.379073103002 Accuracy on Training set : 1.0 Accuracy on Test set : 0.1064
+6,ĐA,8/19/2020,,,,100,0.000000,0.893600,100.00%,10.64%,29914.72669,Overfit (Gamma quá lớn),Execution Time: 29914.726687765 Accuracy on Training set : 1.0 Accuracy on Test set : 0.1064
+7,ĐA,8/19/2020,,,,1000,0.000000,0.893600,100.00%,10.64%,24535.05818,Overfit (Gamma quá lớn),Execution Time: 24535.058184728 Accuracy on Training set : 1.0 Accuracy on Test set : 0.1064
+8,ĐA,8/19/2020,,,,10000,0.000000,0.893600,100.00%,10.64%,25233.89094,Overfit (Gamma quá lớn),Execution Time: 25233.890940381 Accuracy on Training set : 1.0 Accuracy on Test set : 0.1064
+1,T,8/18/2020,Gaussian/RBF,Validation,100,0.001,0.009420,0.028200,99.06%,97.18%,317.5389633,C quá lớn và Gamma quá nhỏ (Tốt),Execution Time: 317.53896325200185 Accuracy on Training set : 0.99058 Accuracy on Test set : 0.9718
+2,T,8/18/2020,,,,0.01,0.000000,0.016800,100.00%,98.32%,343.8405692,Có thể Gamma nằm lân cận 0.01,Execution Time: 343.8405691639964 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9832
+3,T,8/18/2020,,,,0.1,0.000000,0.043400,100.00%,95.66%,7510.115671,Có thể Gamma nằm khoảng 0.01 -> 0.1,Execution Time: 7510.1156711159965 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9566
+4,T,8/18/2020,,,,1,0.000000,0.813800,100.00%,18.62%,21133.96881,Overfit (C quá lớn),Execution Time: 21133.968805019 Accuracy on Training set : 1.0 Accuracy on Test set : 0.1862
+5,ĐA,8/18/2020,,,,10,0.000000,0.893600,100.00%,10.64%,23758.9281,Overfit (C quá lớn),Execution Time: 23758.928103082 Accuracy on Training set : 1.0 Accuracy on Test set : 0.1064
+6,ĐA,8/18/2020,,,,100,0.000000,0.893600,100.00%,10.64%,24742.52742,Overfit (C quá lớn),Execution Time: 24742.527416319 Accuracy on Training set : 1.0 Accuracy on Test set : 0.1064
+7,ĐA,8/18/2020,,,,1000,0.000000,0.893600,100.00%,10.64%,24851.30077,Overfit (C quá lớn),Execution Time: 24851.300769445 Accuracy on Training set : 1.0 Accuracy on Test set : 0.1064
+8,ĐA,8/18/2020,,,,10000,0.000000,0.893600,100.00%,10.64%,25066.38315,Overfit (C quá lớn),Execution Time: 25066.3831511 Accuracy on Training set : 1.0 Accuracy on Test set : 0.1064
+1,ĐA,8/20/2020,Gaussian/RBF,Validation,20,0.005,0.001320,0.001400,99.87%,99.86%,313.2939247,Tìm kiếm Gamma,Execution Time: 313.2939247480026 Accuracy on Training set : 0.99868 Accuracy on Test set : 0.9802
+2,ĐA,8/20/2020,,,,0.01,0.000020,0.016900,100.00%,98.31%,339.3091352,Tìm kiếm Gamma,Execution Time: 339.3091351510011 Accuracy on Training set : 0.99998 Accuracy on Test set : 0.9831
+3,ĐA,8/20/2020,,,,0.05,0.000000,0.016700,100.00%,98.33%,1052.650153,Tìm kiếm Gamma,Execution Time: 1052.6501529629968 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9833
+4,ĐA,8/20/2020,,,,0.1,0.000000,0.043400,100.00%,95.66%,7628.742189,Tìm kiếm Gamma,Execution Time: 7628.742189179 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9566
+5,ĐA,8/20/2020,,,,1,0.000000,0.893600,100.00%,10.64%,23822.39418,Tìm kiếm Gamma,Execution Time: 23822.394180155 Accuracy on Training set : 1.0 Accuracy on Test set : 0.1064
+6,T,8/20/2020,Gaussian/RBF,Validation,30,0.005,0.000660,0.000700,99.93%,99.93%,313.1125049,Tiếp tục tìm kiếm Gamma,Execution Time: 313.11250492200634 Accuracy on Training set : 0.99934 Accuracy on Test set : 0.9806
+7,T,8/20/2020,,,,0.01,0.000000,0.016800,100.00%,98.32%,357.0637055,Tiếp tục tìm kiếm Gamma,Execution Time: 357.06370546799735 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9832
+8,T,8/20/2020,,,,0.05,0.000000,0.016700,100.00%,98.33%,1553.156308,Tiếp tục tìm kiếm Gamma,Execution Time: 1553.1563083500005 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9833
+9,T,8/20/2020,,,,0.1,0.000000,0.043400,100.00%,95.66%,7623.098438,Tiếp tục tìm kiếm Gamma,Execution Time: 7623.098438158999 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9566
+9,T,8/20/2020,,,,1,0.000000,0.813800,100.00%,18.62%,21068.56621,Tiếp tục tìm kiếm Gamma,Execution Time: 21068.566212683 Accuracy on Training set : 1.0 Accuracy on Test set : 0.1862
+1,ĐA,8/21/2020,Gaussian/RBF,Validation,30,0.03,0.000000,0.015400,100.00%,98.46%,781.6556434,Đoán được Gamma lớn hơn 0.01,Execution Time: 781.6556433829974 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9846
+2,ĐA,8/21/2020,,,,0.02,0.000000,0.014800,100.00%,98.52%,456.3310572,Tốt nhất,Execution Time: 456.3310572390001 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9852
+3,ĐA,8/21/2020,,,,0.015,0.000000,0.015400,100.00%,98.46%,378.9966729,Tìm Gamma lớn hơn 0.01,Execution Time: 378.9966729209991 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9846
+4,ĐA,8/21/2020,,,,0.018,0.000000,0.014800,100.00%,98.52%,422.8297012,Tốt nhất,Execution Time: 422.82970116699653 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9852
+5,ĐA,8/21/2020,,,,0.025,0.000000,0.015000,100.00%,98.50%,587.4760369,Thử các lân cận của 0.02,Execution Time: 587.4760368640018 Accuracy on Training set : 1.0 Accuracy on Test set : 0.985
+6,ĐA,8/21/2020,,,,0.023,0.000000,0.015100,100.00%,98.49%,541.1945009,Thử các lân cận của 0.02,Execution Time: 541.194500897 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9849
+7,ĐA,8/21/2020,,,,0.019,0.000000,0.014800,100.00%,98.52%,400.7373385,Tốt nhất,Execution Time: 400.737338451 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9852
+8,ĐA,8/21/2020,,,,0.021,0.000000,0.015000,100.00%,98.50%,431.3191253,Thử các lân cận của 0.02,Execution Time: 431.31912530000045 Accuracy on Training set : 1.0 Accuracy on Test set : 0.985
+9,ĐA,8/21/2020,,,,0.022,0.000000,0.015100,100.00%,98.49%,526.3147557,Thử các lân cận của 0.02,Execution Time: 526.3147556799995 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9849
+10,T,8/21/2020,,,35,0.021,0.000000,0.015000,100.00%,98.50%,431.9294207,Thử các lân cận của 0.02,Execution Time: 431.92942070999925 Accuracy on Training set : 1.0 Accuracy on Test set : 0.985
+11,T,8/21/2020,,,,0.02,0.000000,0.014800,100.00%,98.52%,505.2530904,Tốt nhất,Execution Time: 505.25309044200003 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9852
+12,ĐA,8/21/2020,,,45,0.02,0.000000,0.014800,100.00%,98.52%,485.7990101,Tốt nhất,Execution Time: 485.79901013600005 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9852
+13,ĐA,8/21/2020,,,,0.021,0.000000,0.015000,100.00%,98.50%,432.5792141,Thử các lân cận của 0.02,Execution Time: 432.57921409900155 Accuracy on Training set : 1.0 Accuracy on Test set : 0.985
+14,T,8/21/2020,,,45,0.02,0.000000,0.014800,100.00%,98.52%,429.5976897,Tốt nhất,Execution Time: 429.5976896600041 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9852
+15,T,8/21/2020,,,55,,0.000000,0.014800,100.00%,98.52%,481.1759108,Tốt nhất,Execution Time: 481.1759107980033 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9852
+16,T,8/21/2020,,,65,,0.000000,0.014800,100.00%,98.52%,486.6618719,Tốt nhất,Execution Time: 486.6618718739992 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9852
+17,T,8/21/2020,,,75,,0.000000,0.014800,100.00%,98.52%,415.9549642,Tốt nhất,Execution Time: 415.9549642219936 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9852
+18,T,8/21/2020,,,85,,0.000000,0.014800,100.00%,98.52%,475.0511987,Tốt nhất,Execution Time: 475.05119873 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9852
+19,T,8/21/2020,,,95,,0.000000,0.014800,100.00%,98.52%,468.682198,Tốt nhất,Execution Time: 468.68219797300117 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9852
+20,T,8/21/2020,,,100,,0.000000,0.014800,100.00%,98.52%,474.0534747,Tốt nhất,Execution Time: 474.05347471700003 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9852
+21,T,8/21/2020,,,101,,0.000000,0.014800,100.00%,98.52%,476.2498275,Tốt nhất,Execution Time: 476.2498274890004 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9852
+22,T,8/21/2020,,,120,,0.000000,0.014800,100.00%,98.52%,476.6455749,Tốt nhất,Execution Time: 476.64557488399987 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9852
+23,T,8/21/2020,,,200,,0.000000,0.014800,100.00%,98.52%,486.5874528,Tốt nhất,Execution Time: 486.5874527550002 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9852
+24,T,8/21/2020,,,500,,0.000000,0.014800,100.00%,98.52%,484.2007319,Tốt nhất,Execution Time: 484.20073189899995 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9852
+25,T,8/21/2020,,,1000,,0.000000,0.014800,100.00%,98.52%,477.0616924,Tốt nhất,Execution Time: 477.06169244600005 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9852
+26,T,8/21/2020,,,5000,,0.000000,0.014800,100.00%,98.52%,483.9532584,Tốt nhất,Execution Time: 483.9532583609998 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9852
+27,T,8/21/2020,,,10000,,0.000000,0.014800,100.00%,98.52%,478.8705839,Tốt nhất,Execution Time: 478.8705839310005 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9852
+28,T,8/21/2020,,,50000,,0.000000,0.014800,100.00%,98.52%,483.0120168,Tốt nhất,Execution Time: 483.01201676300025 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9852
+29,T,8/21/2020,,,100000,,0.000000,0.014800,100.00%,98.52%,484.0668655,Tốt nhất,Execution Time: 484.066865453 Accuracy on Training set : 1.0 Accuracy on Test set : 0.9852
